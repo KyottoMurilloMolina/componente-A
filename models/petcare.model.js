@@ -39,6 +39,14 @@ const petcareSchema = new mongoose.Schema(
     veterinarioResponsable: {
       type: String,
       default: 'No asignado'
+    },
+    comida: {
+      type: String,
+      trim: true
+    },
+    actitud: {
+      type: String,
+      trim: true
     }
   },
   {
